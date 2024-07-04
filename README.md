@@ -22,7 +22,7 @@ For building and running the application you need:
 
 ## Installation
 
-1. **Clone the repository:** 
+1. **Clone the repository** 
 2. **Set up MongoDB**
     - **Install and start MongoDB following the [official installation guide](https://www.mongodb.com/docs/manual/installation/).**
 3. **Build the application:**
@@ -33,7 +33,17 @@ For building and running the application you need:
     ```Bash 
    mvn spring-boot:run
    ```
+## Configuration
+The application configuration is located in src/main/resources/application.properties. Adjust the MongoDB connection settings as needed:
+```properties
+spring.data.mongodb.uri=mongodb://localhost:27017/library
+```
 
+
+
+### API Documentation
+This application uses Swagger for API documentation. Once the application is running, you can access the Swagger UI to explore and test the endpoints:
+- Swagger UI: http://localhost:8081/swagger-ui/index.html
 
 ### Contact
 
