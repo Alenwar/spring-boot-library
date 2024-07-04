@@ -9,6 +9,7 @@ This [Spring Boot](http://projects.spring.io/spring-boot/) application is design
 - **MongoDB**
 - **Spring Data MongoDB**
 - **Lombok**
+- **Swagger**
 
 
 ## Getting Started
